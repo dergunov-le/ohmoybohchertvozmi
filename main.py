@@ -1,24 +1,43 @@
-print('Это мои первые строчки кода')
-print(1 + 2)
-print(2 + 4 // 6 * 10)
-print(9 / 4) #Деление с остатком
-print(9 // 4) #Деление без остатка
-name = 10
-print(name)
-print(1)
-print('1')
-i = 'я харашо пакакакакакал'
-print(i)
-n = '666'
-m = 228
-print(int(n) + m)
-print(n + str(m))
-print(f'{n}{m}')
-j = f'{m} - "это переменная"'
-print(j)
-print(n, m)
-print(n, f'\n{m}')
+'''
 
-name1 = int(input('Введите число '))
-name2 = int(input('Введите число '))
-print(name1 + name2)
+# Условные операторы
+
+name1 = 10
+name2 = 20
+
+if name1 == name2:
+    print('name1 > name2')
+    if name2 is True:
+        print('True')
+if name1 >= name2:
+    pass
+elif name1 < name2:
+    print('name1 < name2')  
+elif name1 != name2:
+    pass
+else:
+    print('name1 = name2')
+'''
+
+# циклы
+
+# Список [], Кортедж ()  в списске можно менять эллементы, а в кортедже нет.
+n = [1, 2, 3, 'sasory']  # Список
+print(n[3])              # печатает элемент из списка под указанным номером от (0;+n) или от (-1;-n)
+print(len(n))            # подсчитывает колличество эллементов в списке
+n.append(7)
+print(n)
+'''
+for i in n:
+    print(i)
+for j in 'sasory':
+    print(j)
+'''
+
+m=0
+while m < 10:
+    print(m)
+    m += 1
+while True:              #бесконечный цикл
+    print(m)
+    m += 1
